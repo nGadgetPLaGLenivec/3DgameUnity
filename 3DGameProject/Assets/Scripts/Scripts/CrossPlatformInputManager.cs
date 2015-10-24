@@ -12,11 +12,8 @@ namespace UnitySampleAssets.CrossPlatformInput
 
         static CrossPlatformInputManager()
         {
-#if MOBILE_INPUT
-            virtualInput = new MobileInput ();
-#else
+
             virtualInput = new StandaloneInput();
-#endif
         }
 
 
