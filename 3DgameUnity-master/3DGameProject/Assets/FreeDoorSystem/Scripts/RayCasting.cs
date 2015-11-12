@@ -1,8 +1,3 @@
-////////////////////////////////////
-//Last edited by: Alexander Ameye //
-//on: Friday, 14/08/2015          //
-////////////////////////////////////
-
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
@@ -27,8 +22,8 @@ public class RayCasting : MonoBehaviour
 	//UPDATE FUNCTION
 	void Update()
 	{
-		// Set origin of ray to 'center of screen' and direction of ray to 'cameraview'.
-		Ray ray = Camera.main.ViewportPointToRay (new Vector3 (0.5F, 0.5F, 0F));
+		// Set direction of ray to 'cameraview'.
+		Ray ray = Camera.main.ViewportPointToRay (new Vector3 (0.5F, 0.75F, 0F));
 
 		RaycastHit hit; // Variable reading information about the collider hit.
 
