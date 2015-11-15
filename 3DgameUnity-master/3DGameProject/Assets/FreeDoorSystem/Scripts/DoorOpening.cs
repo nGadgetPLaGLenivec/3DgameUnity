@@ -1,8 +1,3 @@
-////////////////////////////////////
-//Last edited by: Alexander Ameye //
-//on: Friday, 14/08/2015          //
-////////////////////////////////////
-
 using UnityEngine;
 using UnityEditor;
 using System.Collections;

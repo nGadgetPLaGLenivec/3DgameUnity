@@ -4,7 +4,6 @@ using System.Collections;
 public class Game_over : MonoBehaviour {
 
     private bool playerDead = false;
-    private float Reach = 1F;
 	// Use this for initialization
 	void Start () {
 	

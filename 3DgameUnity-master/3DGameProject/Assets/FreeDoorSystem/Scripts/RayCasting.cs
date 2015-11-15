@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class RayCasting : MonoBehaviour
 {
 	//INSPECTOR SETTINGS
-	public float Reach = 5F; // Within this radius the player is able to open/close the door.
+	public float Reach = 5F; //Radius
 
 	//PRIVATE SETTINGS
 	[HideInInspector] public bool InReach;
@@ -25,16 +25,15 @@ public class RayCasting : MonoBehaviour
 		// Set direction of ray to 'cameraview'.
 		Ray ray = Camera.main.ViewportPointToRay (new Vector3 (0.5F, 0.75F, 0F));
 
-		RaycastHit hit; // Variable reading information about the collider hit.
+		RaycastHit hit; // Collider hit
 
-		// Cast a ray from the center of screen towards where the player is looking.
+		// Door in vision.
 		if (Physics.Raycast (ray, out hit, Reach) && hit.collider.tag == "Door")
 		{
 			InReach = true;
 
 			if (Input.GetKey(KeyCode.E))
 			{
-				// Give the object that was hit the name 'Door'.
 				GameObject Door = hit.transform.gameObject;
 
 				// Get access to the 'DoorOpening' script attached to the door that was hit.
