@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class RayCasting : MonoBehaviour
 {
 	//INSPECTOR SETTINGS
-	public float Reach = 5F; //Radius
+	public float Reach = 5F; //Radius//переименовать opennig_door
 
 	//PRIVATE SETTINGS
 	[HideInInspector] public bool InReach;

@@ -7,8 +7,9 @@ public class enemy : MonoBehaviour {
     public float move_speed;
     public float rotation_speed;
     public Transform enemies;
-    
-    void Update()
+
+
+void Update()
     {
         var look_dir = player.position - enemies.position;
         look_dir.y = 0;
