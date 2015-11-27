@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-public class spider : MonoBehaviour {
+public class Spider_web : MonoBehaviour {
     // Use this for initialization
     bool inWeb = false;
     UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter slow;

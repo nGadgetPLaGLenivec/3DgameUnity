@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class enemy : MonoBehaviour {
+public class Enemy : MonoBehaviour {
 
     public Transform player;
     public float move_speed;

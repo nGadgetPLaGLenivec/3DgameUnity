@@ -2,11 +2,12 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class start_menu: MonoBehaviour
+public class Start_menu: MonoBehaviour
 {
     public Canvas quitMenu;
     public Button startText;
     public Button exitText;
+    const string NEXT_LEVEL_NAME = "Room";
 
     void Start()
 
@@ -39,7 +40,7 @@ public class start_menu: MonoBehaviour
     public void StartLevel() //this function will be used on our Play button
 
     {
-        Application.LoadLevel(1); //this will load our first level from our build settings. "1" is the second scene in our game
+        Application.LoadLevel(NEXT_LEVEL_NAME); //this will load our first level from our build settings. "1" is the second scene in our game
 
     }
 
