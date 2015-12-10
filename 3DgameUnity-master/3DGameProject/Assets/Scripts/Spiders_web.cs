@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 
 
-public class Spider_web : MonoBehaviour {
+public class Spiders_web : MonoBehaviour {
     // Use this for initialization
     bool inWeb = false;
     UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter slow;
-    void Start () {
-  
+    void Start ()
+    {
+        slow = GetComponent<UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter>();
     }
 	
 	// Update is called once per frame
@@ -19,8 +20,7 @@ public class Spider_web : MonoBehaviour {
     }
     void OnCollisionEnter(Collision collision)
     {
-        slow = GetComponent<UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter>();
-        if (collision.gameObject.name == "web_spider")
+        if (collision.gameObject.name == "Spiders_web")
         {
             inWeb = true;
        
@@ -30,6 +30,7 @@ public class Spider_web : MonoBehaviour {
         }
         else
         {
+            inWeb = false;
             slow.m_MovingTurnSpeed = 360;
             slow.m_MoveSpeedMultiplier = 1F;
         }
