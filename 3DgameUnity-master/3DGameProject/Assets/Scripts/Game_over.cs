@@ -4,6 +4,7 @@ using System.Collections;
 public class Game_over : MonoBehaviour {
 
     private bool playerDead = false;
+    private bool playerWin = false;
 	// Use this for initialization
 	void Start () {
 	
@@ -26,12 +27,24 @@ public class Game_over : MonoBehaviour {
             playerDead = true;
             EndGame();
         }
+        if (collision.gameObject.tag == "Level_end")
+        {
+            playerWin = true;
+            WinGame();
+        }
     }
     void EndGame()
     {
         if(playerDead)
         {
             Application.LoadLevel("Game_Over");
+        }
+    }
+    void WinGame()
+    {
+        if (playerWin)
+        {
+            Application.LoadLevel("Win");
         }
     }
 }

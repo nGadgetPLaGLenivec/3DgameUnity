@@ -1,0 +1,35 @@
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.057 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: dbc -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.319561 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1023.
+Total: 0.397890 ms (FindLiveObjects: 0.092762 ms CreateObjectMapping: 0.029604 ms MarkObjects: 0.243155 ms  DeleteObjects: 0.031973 ms)
+

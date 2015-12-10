@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEditor;
 using System.Collections;
 
 public class DoorOpening : MonoBehaviour {
@@ -91,12 +90,12 @@ public class DoorOpening : MonoBehaviour {
 		transform.parent = hinge.transform;
 
 		//USER ERROR CODES
-		if(Angle == 180 || Angle < 0)
+		/*if(Angle == 180 || Angle < 0)
 		{
 			UnityEditor.EditorUtility.DisplayDialog ("Error 001", "Angle value can't exceed 180 degrees or be negative", "Ok", "");
 			UnityEditor.EditorApplication.isPlaying = false;
 		}
-
+        */
 		// Make sure the door opens correctly when using different swingsides.
 		if (SwingSide == DoorSwingSide.Left)
 		{
