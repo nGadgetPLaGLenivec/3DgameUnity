@@ -19,17 +19,11 @@ Loading C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's n
 Platform assembly: C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.057 seconds
+- Completed reload, in  0.059 seconds
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: C:\CG\Game(lab 2)\3DgameUnity\3DgameUnity-master\3DGameProject\Jonny's nightmare_Data\Managed\System.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: dbc -> priority: 1 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 4.319561 ms
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1023.
-Total: 0.397890 ms (FindLiveObjects: 0.092762 ms CreateObjectMapping: 0.029604 ms MarkObjects: 0.243155 ms  DeleteObjects: 0.031973 ms)
-
+  Thread -> id: 728 -> priority: 1 

@@ -13,14 +13,14 @@ namespace CompleteProject
         public float ySpeed = 50.0f;
         public float distance = 3.0f;
         public float targetHeight = 2.0f; 
-        Vector3 offset;                     // The initial offset from the target.
+       // Vector3 offset;                     // The initial offset from the target.
 
 
         void Start ()
         {
             // Calculate the initial offset.
 
-            offset = transform.position - target.position;
+            //offset = transform.position - target.position;
         }
 
 
